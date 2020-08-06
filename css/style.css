@@ -75,6 +75,12 @@ header {
   border-radius: 33px;
   padding: 12px 28px;
 }
+.get-started-btn:hover {
+  background: #56b68b52 !important;
+  color: #21b573 !important;
+  border-radius: 33px !important;
+  padding: 12px 28px;
+}
 
 /* Navbar Style */
 
@@ -192,6 +198,12 @@ header {
   color: #fff !important;
   padding: 6px 12px !important;
 }
+.course-btn:hover {
+  background: #56b68b52 !important;
+  color: #21b573 !important;
+  border-radius: 18px !important;
+  padding: 6px 12px !important;
+}
 /* Start Course Section Style */
 
 /* Start Blog Section Style */
@@ -211,6 +223,12 @@ header {
   background: #21b573;
   border-radius: 18px !important;
   color: #fff !important;
+  padding: 6px 12px !important;
+}
+.blog-btn:hover {
+  background: #56b68b52 !important;
+  color: #21b573 !important;
+  border-radius: 18px !important;
   padding: 6px 12px !important;
 }
 /* End Blog Section Style */
