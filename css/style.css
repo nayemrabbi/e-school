@@ -1,0 +1,268 @@
+/* Basic Style Setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #212121;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Basic Style End */
+
+/* Navbar Style */
+header {
+  position: relative;
+}
+.navbar {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0fff0 !important;
+}
+
+.nav-link {
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.1s ease-in-out;
+  margin: auto;
+}
+.nav-link:hover {
+  background: #56b68b52 !important;
+  color: #21b573 !important;
+  border-radius: 18px !important;
+}
+
+@media (max-width: 575.98px) {
+  .nav-link:hover {
+    width: 100px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-link:hover {
+    width: 100px;
+  }
+}
+#home-section {
+  height: 100vh;
+  background-color: #f0fff0;
+}
+.home-section-right img {
+  animation: up-down 3s ease-in-out infinite alternate;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.headline {
+  font-size: 48px;
+  font-weight: bold;
+}
+.highlight {
+  color: #21b573;
+}
+.get-started-btn {
+  color: white;
+  background: #21b573;
+  border-radius: 33px;
+  padding: 12px 28px;
+}
+
+/* Navbar Style */
+
+/* Start Modal Style */
+.signup-btn {
+  background: #21b573;
+  color: #fff !important;
+  margin-left: 10px !important;
+  border-radius: 20px !important;
+  padding: 8px 16px !important;
+  text-align: center;
+}
+
+.login-btn {
+  background: orange;
+  margin-left: 10px !important;
+  color: #fff !important;
+  border-radius: 20px !important;
+  padding: 9px 18px !important;
+  align-items: center;
+}
+/* Responsive */
+@media (max-width: 575.98px) {
+  .signup-btn {
+    width: 100px;
+    margin: 6px auto !important;
+    text-align: center;
+  }
+  .login-btn {
+    width: 100px;
+    margin: 4px auto !important;
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .signup-btn {
+    width: 120px;
+    margin: auto;
+  }
+  .login-btn {
+    width: 120px;
+    margin: auto;
+    margin-top: 8px;
+  }
+}
+@media (max-width: 575.98px) {
+  .home-section-left h1 {
+    font-size: 24px;
+  }
+
+  .get-started-btn {
+    background: #21b573;
+    padding: 6px 16px;
+    border-radius: 33px;
+    color: #fff;
+  }
+}
+/* End Modal Style */
+
+/* Start Book Section Style */
+.box {
+  background-color: #f8fffb;
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 12px 90px 0 rgba(103, 151, 255, 0.11);
+  transition: all 0.2s ease;
+}
+.box:hover {
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 8px 70px 0 rgba(103, 151, 255, 0.22);
+}
+.box img {
+  padding-top: 15px;
+  width: 66px;
+  height: 85px;
+}
+.box h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+/* End Book Section Style */
+
+/* Start Course Section Style */
+.course-title {
+  padding: 40px 0px 40px 0px;
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 600;
+}
+.course {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.icon img {
+  width: 20px;
+}
+.course-btn {
+  background: #21b573;
+  border-radius: 18px !important;
+  color: #fff !important;
+  padding: 6px 12px !important;
+}
+/* Start Course Section Style */
+
+/* Start Blog Section Style */
+.blog {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+.blog-title {
+  padding: 28px 0px 55px 0px;
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 600;
+}
+.blog-btn {
+  background: #21b573;
+  border-radius: 18px !important;
+  color: #fff !important;
+  padding: 6px 12px !important;
+}
+/* End Blog Section Style */
+
+/* Srart Testimonial Section Style */
+
+#testimonial {
+  padding: 80px 0px;
+  margin-top: 30px;
+  background: #f8fffb;
+}
+.testimonial-title {
+  padding: 40px 0px 55px 0px;
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 600;
+}
+.carousel-item img {
+  width: 150px;
+  margin-left: 100px;
+}
+.text {
+  font-style: italic;
+}
+/* Responsive */
+@media (max-width: 575.98px) {
+  .carousel-item img {
+    width: 150px;
+    margin-left: 0px;
+  }
+}
+/* End Testimonial Section Style */
+
+/* Start Footer Section Style */
+footer {
+  background-color: #282531;
+  padding: 10px 0px;
+  padding-top: 80px;
+  color: white;
+}
+
+footer ul h4 {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+}
+
+ul li a {
+  color: lightgray;
+  text-decoration: none !important;
+}
+
+/* End Footer Section Style */
